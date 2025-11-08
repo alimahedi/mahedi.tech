@@ -73,12 +73,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/logo.png" },
-      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
-      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
+      { url: "/icon.png", sizes: "any" },
+      { url: "/logo.png", type: "image/png" },
     ],
     apple: [{ url: "/apple-icon.png" }],
-    shortcut: "/logo.png",
+    shortcut: ["/icon.png"],
   },
   robots: {
     index: true,
